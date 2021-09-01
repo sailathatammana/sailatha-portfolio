@@ -1,7 +1,7 @@
 import Footer from "../components/Footer";
-import Mail from "../assests/icons/mail.png";
-import Call from "../assests/icons/call.png";
-import Location from "../assests/icons/location.png";
+import Mail from "../assests/icons/mail.jpg";
+import Call from "../assests/icons/call.jpg";
+import Location from "../assests/icons/location.jpg";
 
 export default function Contact() {
   return (

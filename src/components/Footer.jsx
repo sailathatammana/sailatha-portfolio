@@ -1,5 +1,5 @@
-import Github from "../assests/icons/github.png";
-import Linkedin from "../assests/icons/linkedin.png";
+import Github from "../assests/icons/github.jpg";
+import Linkedin from "../assests/icons/linkedin.jpg";
 
 export default function Footer() {
   return (

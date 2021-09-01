@@ -17,7 +17,7 @@ h1 {
 
 h2 {
   font-size: 22px;
-  font-weight: normal;
+  font-weight: 500;
   line-height: 22px;
 }
 
@@ -32,18 +32,4 @@ p {
   font-weight: normal;
   line-height: 22px;
   margin: var(--space-medium);
-}
-
-.navigation a {
-  font-size: 14px;
-  font-weight: thin;
-  margin-right: var(--space-small);
-  margin-left: var(--space-small);
-  text-decoration: none;
-  color: #fff;
-  font-weight: bold;
-}
-
-#contact a {
-  text-decoration: none;
 }
