@@ -1,22 +1,25 @@
+import Github from "../assests/icons/github.png";
+import Linkedin from "../assests/icons/linkedin.png";
+
 export default function Footer() {
   return (
     <footer className="footer">
-      <ol>
+      <ul>
         <li>
           <a
             href="https://www.linkedin.com/in/sai-latha-tammana/"
             target="blank"
           >
-            LinkedIn
+            <img src={Linkedin} alt="" />
           </a>
         </li>
         <li>
           <a href="https://github.com/sailathatammana" target="blank">
-            Github
+            <img src={Github} alt="" />
           </a>
         </li>
-      </ol>
-      <p>2021 - SaiLatha Tammana</p>
+      </ul>
+      <p>2021 . SaiLatha Tammana</p>
     </footer>
   );
 }

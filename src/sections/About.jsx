@@ -2,8 +2,8 @@ import profile from "../assests/profile.jpg";
 
 export default function About() {
   return (
-    <div id="about">
-      <h1>About me</h1>
+    <div id="about" className="content-section">
+      <h2>About me</h2>
       <p>
         Hi! I’m SaiLatha, a junior frontend developer from India. This is my
         portfolio, where you can find the projeccts that I developed.
@@ -14,7 +14,9 @@ export default function About() {
         you might ask? Well, scroll down and let me convince you.
       </p>
       <p>Scroll down to see some of my work!</p>
-      <img src={profile} alt="" />
+      <div className="image-about">
+        <img src={profile} alt="profile" />
+      </div>
     </div>
   );
 }
