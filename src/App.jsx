@@ -1,21 +1,20 @@
-function App() {
+import NavigationBar from "./components/NavigationBar";
+import Hero from "./sections/Hero";
+import About from "./sections/About";
+import Portfolio from "./sections/Portfolio";
+import Technologies from "./sections/Technologies";
+import Contact from "./sections/Contact";
+import "./styles/styles.css";
+
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavigationBar />
+      <Hero />
+      <About />
+      <Portfolio />
+      <Technologies />
+      <Contact />
     </div>
   );
 }
-
-export default App;

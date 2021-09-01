@@ -1,0 +1,47 @@
+#hero {
+  min-height: 100vh;
+  background: var(--color-light-grey);
+  display: grid;
+  align-items: center;
+  width: 100%;
+}
+
+#hero h1 {
+  text-align: center;
+  padding: 0;
+}
+
+#about {
+  min-height: 100vh;
+  background: FFFFFF;
+  display: grid;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#about img {
+  width: 320px;
+}
+
+#projects {
+  min-height: 100vh;
+  background: var(--color-light-grey);
+  display: inline-block;
+  width: 100%;
+}
+
+#tech {
+  min-height: 100vh;
+  background: FFFFFF;
+  display: inline-block;
+  width: 100%;
+}
+
+#contact {
+  min-height: 100vh;
+  background: var(--color-light-grey);
+  display: inline-block;
+  width: 100%;
+}
