@@ -3,7 +3,7 @@ export default function TechnologiesCard({ title, logo }) {
   const logoURL = logoObject.default;
 
   return (
-    <div className="tech-card">
+    <div className="tech-section">
       <img src={logoURL} alt="" />
       <h3>{title}</h3>
     </div>
