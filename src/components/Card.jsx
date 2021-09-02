@@ -11,9 +11,9 @@ export default function ProjectCard({
   websiteURL,
   githubURL,
 }) {
-  const previewObject = require(`../assets/pictures/${preview}`);
+  const previewObject = require(`../assets/projects/${preview}`);
   const previewURL = previewObject.default;
-  const screenshotObject = require(`../assets/pictures/${screenshot}`);
+  const screenshotObject = require(`../assets/projects/${screenshot}`);
   const screenshotURL = screenshotObject.default;
 
   const ProjTechList = technologies.map((item) => (
