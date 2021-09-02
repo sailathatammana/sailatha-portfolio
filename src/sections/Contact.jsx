@@ -6,14 +6,14 @@ import Location from "../assets/icons/location.jpg";
 export default function Contact() {
   return (
     <div className="content-section" id="contact">
-      <div className="contact-section">
+      <h2>Contact me</h2>
+      <div className="content-grid">
         <div>
-          <h2>Contact me</h2>
           <p>
             Here is my contact information if you are interested in hiring me.
           </p>
         </div>
-        <div>
+        <div className="contact-section">
           <ul>
             <li>
               <a href="mailto:sailathatammana1997@gmail.com">
