@@ -47,10 +47,47 @@
 }
 
 /*Portfolio*/
+#projects img {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+  padding: 0;
+}
+
+.overlayed img {
+  opacity: 0.6;
+}
+
+.overlay-text {
+  display: flex;
+  position: absolute;
+  margin-top: 20px;
+}
+
+.overlay-text p {
+  font-size: 14px;
+  color: black;
+  text-transform: uppercase;
+  z-index: 900;
+}
+
+#projects h3 {
+  margin-bottom: var(--space-small);
+  margin: 0;
+}
+
 #projects {
   background: var(--color-light-grey);
   display: inline-block;
   width: 100%;
+}
+
+.projects-section {
+  padding: var(--space-medium);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: var(--space-small);
+  grid-row-gap: var(--space-small);
 }
 
 /*Technologies*/

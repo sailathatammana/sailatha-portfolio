@@ -1,4 +1,20 @@
+import Card from "../components/Card";
+import ProjectsData from "../data/projects.json";
+
 export default function Portfolio() {
+  const ProjectsList = ProjectsData.map((item) => (
+    <Card
+      key={item.id}
+      title={item.title}
+      preview={item.preview}
+      description={item.description}
+      screenshot={item.screenshot}
+      technologies={item.technologies}
+      isFinished={item.isFinished}
+      githubURL={item.githubURL}
+      websiteURL={item.websiteURL}
+    />
+  ));
   return (
     <div className="content-section" id="projects">
       <div>
@@ -8,8 +24,8 @@ export default function Portfolio() {
           Novare Potential.
         </p>
       </div>
-      <div className="grid-projects">
-        <p>projects list</p>
+      <div className="projects-section">
+        <p>{ProjectsList}</p>
       </div>
     </div>
   );

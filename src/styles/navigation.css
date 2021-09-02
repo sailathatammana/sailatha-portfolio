@@ -4,6 +4,7 @@ nav {
   background: black;
   overflow: hidden;
   position: fixed;
+  z-index: 1000;
 }
 
 .navigation ul {
