@@ -24,9 +24,7 @@ export default function Portfolio() {
           Novare Potential.
         </p>
       </div>
-      <div className="projects-section">
-        <p>{ProjectsList}</p>
-      </div>
+      <div className="projects-section">{ProjectsList}</div>
     </div>
   );
 }

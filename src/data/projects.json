@@ -3,10 +3,10 @@
     "id": 1,
     "title": "Munamii cakery",
     "description": "A website represents cupcakes & wedding cakes",
-    "technologies": ["HTML", "CSS", "firebase_hosting"],
+    "technologies": ["HTML", "CSS", "Firebase hosting"],
     "isFinished": true,
-    "preview": "Todolist-preview.jpg",
-    "screenshot": "Todolist-screenshot.jpg",
+    "preview": "munamii-preview.jpg",
+    "screenshot": "munamii-screenshot.jpg",
     "githubURL": "https://github.com/sailathatammana/cakery",
     "websiteURL": "https://latha-munamiicakery.web.app/"
   },
@@ -38,10 +38,10 @@
     "description": "A website for a Vegan Resaturant",
     "technologies": ["React", "CSS", "HTML"],
     "isFinished": false,
-    "preview": "eika-preview.jpg",
-    "screenshot": "eika-screenshot.jpg",
-    "githubURL": "https://github.com/sailathatammana/Tracking",
-    "websiteURL": "https://shopping-cart-70c46.web.app"
+    "preview": "Veganretaurant-preview.jpg",
+    "screenshot": "Veganretaurant-screenshot.jpg",
+    "githubURL": "https://github.com/sailathatammana/",
+    "websiteURL": "https://google.com"
   },
   {
     "id": 5,
@@ -49,10 +49,10 @@
     "description": "A Package tracker who allows user to track his parcel ordered online.",
     "technologies": ["React", "javascript", "HTML", "CSS", "firebase_hosting"],
     "isFinished": false,
-    "preview": "eika-preview.jpg",
-    "screenshot": "eika-screenshot.jpg",
-    "githubURL": "https://github.com/sailathatammana/Tracking",
-    "websiteURL": "https://shopping-cart-70c46.web.app"
+    "preview": "track-preview.jpg",
+    "screenshot": "track-screenshot.jpg",
+    "githubURL": "https://github.com/sailathatammana/",
+    "websiteURL": "https://google.com"
   },
   {
     "id": 6,
@@ -60,10 +60,10 @@
     "description": "A todo list developed using Test Driven Development.",
     "technologies": ["React", "javascript", "HTML", "CSS", "firebase_hosting"],
     "isFinished": false,
-    "preview": "eika-preview.jpg",
-    "screenshot": "eika-screenshot.jpg",
-    "githubURL": "https://github.com/sailathatammana/Tracking",
-    "websiteURL": "https://shopping-cart-70c46.web.app"
+    "preview": "todo-preview.jpg",
+    "screenshot": "todo-screenshot.jpg",
+    "githubURL": "https://github.com/sailathatammana/",
+    "websiteURL": "https://google.com"
   },
   {
     "id": 7,
@@ -71,10 +71,10 @@
     "description": "An intuitive E-commerce web app.",
     "technologies": ["React", "javascript", "HTML", "CSS", "firebase_hosting"],
     "isFinished": false,
-    "preview": "eika-preview.jpg",
-    "screenshot": "eika-screenshot.jpg",
-    "githubURL": "https://github.com/sailathatammana/Tracking",
-    "websiteURL": "https://shopping-cart-70c46.web.app"
+    "preview": "ecommerce-preview.jpg",
+    "screenshot": "ecommerce-screenshot.jpg",
+    "githubURL": "https://github.com/sailathatammana/",
+    "websiteURL": "https://google.com"
   },
   {
     "id": 8,
@@ -82,10 +82,10 @@
     "description": "A website for a BBQ Restaurant.",
     "technologies": ["React", "javascript", "HTML", "CSS", "firebase_hosting"],
     "isFinished": false,
-    "preview": "eika-preview.jpg",
-    "screenshot": "eika-screenshot.jpg",
-    "githubURL": "https://github.com/sailathatammana/Tracking",
-    "websiteURL": "https://shopping-cart-70c46.web.app"
+    "preview": "restaurant-preview.jpg",
+    "screenshot": "restaurant-screenshot.jpg",
+    "githubURL": "https://github.com/sailathatammana/",
+    "websiteURL": "https://google.com"
   },
   {
     "id": 9,
@@ -93,10 +93,10 @@
     "description": "A fun learning platform based on self learning and interests.",
     "technologies": ["React", "javascript", "HTML", "CSS", "firebase_hosting"],
     "isFinished": false,
-    "preview": "eika-preview.jpg",
-    "screenshot": "eika-screenshot.jpg",
-    "githubURL": "https://github.com/sailathatammana/Tracking",
-    "websiteURL": "https://shopping-cart-70c46.web.app"
+    "preview": "learning-preview.jpg",
+    "screenshot": "learning-screenshot.jpg",
+    "githubURL": "https://github.com/sailathatammana/",
+    "websiteURL": "https://google.com"
   },
   {
     "id": 10,
@@ -104,9 +104,9 @@
     "description": "A video on demand app mimicking the Famous One.",
     "technologies": ["React", "javascript", "HTML", "CSS", "firebase_hosting"],
     "isFinished": false,
-    "preview": "eika-preview.jpg",
-    "screenshot": "eika-screenshot.jpg",
-    "githubURL": "https://github.com/sailathatammana/Tracking",
-    "websiteURL": "https://shopping-cart-70c46.web.app"
+    "preview": "netflix-preview.jpg",
+    "screenshot": "netflix-screenshot.jpg",
+    "githubURL": "https://github.com/sailathatammana/",
+    "websiteURL": "https://google.com"
   }
 ]
