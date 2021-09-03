@@ -39,7 +39,7 @@
 #about img {
   width: 300px;
   align-items: center;
-  border-radius: 50px;
+  border-radius: 100px;
   margin-left: 20px;
 }
 
@@ -121,7 +121,6 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   text-align: center;
-  filter: grayscale(1);
   grid-row-gap: var(--space-smaller);
   padding: var(--space-smaller);
 }
@@ -151,7 +150,6 @@
 #contact img {
   width: 24px;
   margin-right: var(--space-small);
-  filter: grayscale(1);
 }
 
 .contact-section li {
