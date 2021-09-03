@@ -13,7 +13,7 @@
   {
     "id": 2,
     "title": "Yellow Package Tracking",
-    "description": "A website displays a list of orders with some details like order status, ETAs, pickup locations",
+    "description": "A website displays a list of parcel orders.",
     "technologies": ["HTML", "CSS", "firebase_hosting", "React", "javascript"],
     "isFinished": true,
     "preview": "parcel-preview.jpg",
@@ -24,7 +24,7 @@
   {
     "id": 3,
     "title": "EIKA Shopping List",
-    "description": "A Shopping-list app where users can save their items to buy by EIKA store",
+    "description": "A Shopping-list app where users can save items to buy at EIKA.",
     "technologies": ["React", "javascript", "HTML", "CSS", "firebase_hosting"],
     "isFinished": true,
     "preview": "eika-preview.jpg",

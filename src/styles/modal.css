@@ -98,9 +98,30 @@
   float: right;
   position: absolute;
   left: 87%;
-  border: 2px solid black;
-  background-color: white;
+  /* border: 2px solid black;
+  background-color: white; */
 }
 #technologies-list {
   color: var(--color-dark-purple);
+}
+
+@media (min-width: 960px) {
+  #modal-popup {
+    max-width: 50vw;
+  }
+  #modal-popup img {
+    width: 100%;
+    height: 230px;
+    padding-top: 16px;
+  }
+  .modal-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: flex-start;
+    grid-column-gap: var(--space-smaller);
+    margin: 8px;
+  }
+  .close-button button {
+    left: 93%;
+  }
 }
