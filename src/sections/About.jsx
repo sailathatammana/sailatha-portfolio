@@ -8,9 +8,9 @@ export default function About() {
         <div>
           <p>Hi! A quick word about myself</p>
           <p>
-            I am SaiLatha, a frontend developer from India. Software development
-            is an art; a science that I use to make technology more accessible
-            to people.
+            I am from India. I am a frontend developer with interests in
+            full-stack development. Software development is an art; a science
+            that I use to make technology more accessible to people.
           </p>
           <p>
             I specialize in development on React with sleek and minimalist

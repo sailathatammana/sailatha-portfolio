@@ -11,8 +11,8 @@ export default function Portfolio() {
       <div className="content-grid">
         <div>
           <p>
-            Here are the projects I will be making during the Frontend course at
-            Novare Potential.
+            Here are some projects that I have done so far and the ones that are
+            coming up.
           </p>
         </div>
         <div className="projects-section">{ProjectsList}</div>
