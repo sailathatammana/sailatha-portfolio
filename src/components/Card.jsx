@@ -1,54 +1,42 @@
 import { useState } from "react";
 import Modal from "./Modal";
+import Pills from "./Pills";
 
-export default function ProjectCard({
-  title,
-  preview,
-  description,
-  screenshot,
-  technologies,
-  isFinished,
-  websiteURL,
-  githubURL,
-}) {
-  const previewObject = require(`../assets/projects/${preview}`);
+export default function ProjectCard({ information }) {
+  const previewObject = require(`../assets/projects/${information.preview}`);
   const previewURL = previewObject.default;
-  const screenshotObject = require(`../assets/projects/${screenshot}`);
+  const screenshotObject = require(`../assets/projects/${information.screenshot}`);
   const screenshotURL = screenshotObject.default;
-
-  const ProjTechList = technologies.map((item) => (
-    <li className="pills">{item}</li>
-  ));
 
   const [isOpen, setIsOpen] = useState(false);
   return (
     <article>
       <div
-        onClick={() => isFinished && setIsOpen(true)}
-        className={isFinished ? "normal" : "overlayed"}
+        onClick={() => information.isFinished && setIsOpen(true)}
+        className={information.isFinished ? "normal" : "overlayed"}
       >
-        {isFinished === false && (
+        {information.isFinished === false && (
           <div className="overlay-text">
             <p>Coming soon</p>
           </div>
         )}
         <img src={previewURL} alt="" />
-        <h3>{title}</h3>
+        <h3>{information.title}</h3>
       </div>
       <Modal open={isOpen} onClose={() => setIsOpen(false)}>
         <div id="modal-popup">
           <img src={screenshotURL} alt="" />
-          <h2>{title}</h2>
-          <p>{description}</p>
-          <ul id="technologies-list">{ProjTechList}</ul>
+          <h2>{information.title}</h2>
+          <p>{information.description}</p>
+          <Pills technologies={information.technologies} />
           <div className="buttons">
             <button className="purple-button">
-              <a target="blank" href={websiteURL}>
+              <a target="blank" href={information.websiteURL}>
                 Visit website/app
               </a>
             </button>
             <button className="white-button">
-              <a target="blank" href={githubURL}>
+              <a target="blank" href={information.githubURL}>
                 Git repository
               </a>
             </button>

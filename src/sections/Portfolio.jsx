@@ -3,17 +3,7 @@ import ProjectsData from "../data/projects.json";
 
 export default function Portfolio() {
   const ProjectsList = ProjectsData.map((item) => (
-    <Card
-      key={item.id}
-      title={item.title}
-      preview={item.preview}
-      description={item.description}
-      screenshot={item.screenshot}
-      technologies={item.technologies}
-      isFinished={item.isFinished}
-      githubURL={item.githubURL}
-      websiteURL={item.websiteURL}
-    />
+    <Card key={item.id} information={item} />
   ));
   return (
     <div className="content-section" id="projects">
