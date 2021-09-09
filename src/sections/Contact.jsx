@@ -3,6 +3,12 @@ import Mail from "../assets/icons/mail.jpg";
 import Call from "../assets/icons/call.jpg";
 import Location from "../assets/icons/location.jpg";
 
+/**
+ * Readability & Reausabilty -1
+ * Even if the component is less than 50 lines,
+ * we can see that li, a, and img can be made a single component
+ * to make the whole component DRYer
+ */
 export default function Contact() {
   return (
     <div className="content-section" id="contact">

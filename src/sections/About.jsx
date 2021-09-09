@@ -1,5 +1,6 @@
 import profile from "../assets/profile.jpg";
 
+// Good
 export default function About() {
   return (
     <div className="content-section" id="about">
