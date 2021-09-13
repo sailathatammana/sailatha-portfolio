@@ -10,10 +10,7 @@ export default function Technologies() {
       <h2>Technologies I use</h2>
       <div className="content-grid">
         <div>
-          <p>
-            Here are the techologies that I already know and also starting to
-            learn.
-          </p>
+          <p>Technologies that I'm comfortable with and also geting there.</p>
         </div>
         <div className="grid-technologies">{TechnologiesList}</div>
       </div>

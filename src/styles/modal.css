@@ -111,9 +111,20 @@
   }
   #modal-popup img {
     width: 100%;
-    height: 230px;
-    padding-top: 16px;
+    height: auto;
+    padding-top: 48px;
   }
+
+  #modal-popup h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  #modal-popup p {
+    font-size: 16px;
+    font-weight: lighter;
+  }
+
   .modal-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
