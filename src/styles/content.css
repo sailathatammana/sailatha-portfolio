@@ -181,6 +181,7 @@
   }
 
   #about .image-about {
+    padding-top: -100px;
     padding-left: 75px;
   }
 
