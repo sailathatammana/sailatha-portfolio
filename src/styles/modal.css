@@ -109,11 +109,11 @@
 @media (min-width: 960px) {
   #modal-popup {
     max-width: 960px;
+    max-height: 350px;
   }
   #modal-popup img {
     width: 100%;
     height: auto;
-    padding-top: 48px;
   }
 
   #modal-popup h2 {
@@ -127,6 +127,7 @@
   }
 
   .modal-grid {
+    max-height: 300px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: flex-start;
