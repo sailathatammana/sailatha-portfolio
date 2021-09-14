@@ -1,7 +1,7 @@
 nav {
   width: 100vw;
   height: 50px;
-  background: #4fa592;
+  background: black;
   overflow: hidden;
   position: fixed;
   z-index: 1000;
@@ -28,7 +28,7 @@ nav {
   width: 40px;
   height: auto;
   margin-top: 0;
-  background: var(--color-light-green);
+  background: var(--color-blue);
 }
 
 .navigation a {
@@ -37,6 +37,6 @@ nav {
   margin-right: var(--space-small);
   margin-left: var(--space-small);
   text-decoration: none;
-  color: black;
+  color: white;
   font-weight: bold;
 }

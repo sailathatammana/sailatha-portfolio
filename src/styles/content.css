@@ -18,10 +18,11 @@
 /* Hero */
 #hero {
   min-height: 100vh;
-  background: var(--color-light-biscuit);
+  background: var(--color-mustard);
   display: grid;
   align-items: center;
   width: 100%;
+  color: black;
 }
 
 #hero h1 {
@@ -32,7 +33,7 @@
 
 /*About me*/
 #about {
-  background: var(--color-light-green);
+  background: var(--color-blue);
 }
 
 #about img {
@@ -83,9 +84,10 @@
 }
 
 #projects {
-  background: var(--color-light-biscuit);
+  background: var(--color-mustard);
   display: inline-block;
   width: 100%;
+  color: black;
 }
 
 .projects-section {
@@ -98,7 +100,7 @@
 
 /*Technologies*/
 #tech {
-  background: var(--color-light-green);
+  background: var(--color-blue);
 }
 
 .tech-section {
@@ -135,10 +137,11 @@
 
 #contact {
   min-height: 100%;
-  background: var(--color-light-biscuit);
+  background: var(--color-mustard);
   display: inline-block;
   align-items: flex-end;
   width: 100%;
+  color: black;
 }
 
 #contact img {
@@ -174,6 +177,10 @@
 
   .projects-section {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  #projects h3 {
+    font-weight: normal;
   }
 
   .content-section h2 {
