@@ -107,7 +107,7 @@
 
 @media (min-width: 960px) {
   #modal-popup {
-    max-width: 50vw;
+    max-width: 960px;
   }
   #modal-popup img {
     width: 100%;
@@ -133,6 +133,6 @@
     margin: 8px;
   }
   .close-button button {
-    left: 93%;
+    left: 95%;
   }
 }

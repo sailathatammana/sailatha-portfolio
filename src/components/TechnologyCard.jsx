@@ -1,4 +1,4 @@
-export default function TechnologiesCard({ title, logo }) {
+export default function TechnologyCard({ title, logo }) {
   const logoObject = require(`../assets/technologies/${logo}`);
   const logoURL = logoObject.default;
 
