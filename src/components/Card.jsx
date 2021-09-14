@@ -1,10 +1,17 @@
-export default function ProjectCard({ information, onClick }) {
+export default function ProjectCard({ information, modalData }) {
   const previewObject = require(`../assets/projects/${information.preview}`);
   const previewURL = previewObject.default;
+
+  function onClick() {
+    if (information.isFinished) {
+      modalData(information);
+    }
+  }
+
   return (
-    <article onClick={onClick}>
+    <article>
       <div
-        onClick={() => information.isFinished}
+        onClick={() => onClick()}
         className={information.isFinished ? "normal" : "overlayed"}
       >
         {information.isFinished === false && (

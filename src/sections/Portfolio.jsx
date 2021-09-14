@@ -4,10 +4,10 @@ import data from "../data/projects.json";
 
 export default function Portfolio({ setModal }) {
   const ProjectsList = data.map((item) => (
-    <Card key={item.id} information={item} onClick={() => setProjects(item)} />
+    <Card key={item.id} information={item} modalData={() => setCard(item)} />
   ));
 
-  function setProjects(item) {
+  function setCard(item) {
     setModal(<ModalCard information={item} />);
   }
   return (
