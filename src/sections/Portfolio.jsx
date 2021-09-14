@@ -1,10 +1,15 @@
 import Card from "../components/Card";
+import ModalCard from "../components/ModalCard";
 import ProjectsData from "../data/projects.json";
 
-export default function Portfolio() {
+export default function Portfolio({ setModal }) {
   const ProjectsList = ProjectsData.map((item) => (
-    <Card key={item.id} information={item} />
+    <Card key={item.id} information={item} onClick={() => setProjects(item)} />
   ));
+
+  function setProjects(item) {
+    setModal(<ModalCard information={item} />);
+  }
   return (
     <div className="content-section" id="projects">
       <h2>Projects</h2>
