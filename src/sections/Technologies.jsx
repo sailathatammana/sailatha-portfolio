@@ -5,6 +5,7 @@ export default function Technologies() {
   const TechnologiesList = data.map((item) => (
     <Card key={item.id} title={item.title} logo={item.logo} />
   ));
+  
   return (
     <div className="content-section" id="tech">
       <h2>Technologies I use</h2>
