@@ -1,6 +1,6 @@
 footer {
   width: 100%;
-  background: var(--color-dark-grey);
+  background: #4fa592;
   overflow: hidden;
   bottom: 0;
   display: grid;
@@ -10,7 +10,7 @@ footer {
 .footer p {
   margin-bottom: var(--space-medium);
   margin-top: 0;
-  color: (--color-light-grey);
+  color: (--color-light-biscuit);
   font-size: 11px;
 }
 

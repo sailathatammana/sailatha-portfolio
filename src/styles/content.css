@@ -18,7 +18,7 @@
 /* Hero */
 #hero {
   min-height: 100vh;
-  background: var(--color-light-grey);
+  background: var(--color-light-biscuit);
   display: grid;
   align-items: center;
   width: 100%;
@@ -32,13 +32,13 @@
 
 /*About me*/
 #about {
-  background: #ffffff;
+  background: var(--color-light-green);
 }
 
 #about img {
   width: 300px;
   align-items: center;
-  border-radius: 100px;
+  border-radius: 100%;
   margin-left: 20px;
 }
 
@@ -83,7 +83,7 @@
 }
 
 #projects {
-  background: var(--color-light-grey);
+  background: var(--color-light-biscuit);
   display: inline-block;
   width: 100%;
 }
@@ -98,7 +98,7 @@
 
 /*Technologies*/
 #tech {
-  background: #ffffff;
+  background: var(--color-light-green);
 }
 
 .tech-section {
@@ -140,7 +140,7 @@
 
 #contact {
   min-height: 100%;
-  background: var(--color-light-grey);
+  background: var(--color-light-biscuit);
   display: inline-block;
   align-items: flex-end;
   width: 100%;
@@ -165,13 +165,10 @@
 @media (min-width: 960px) {
   #hero h1 {
     text-align: center;
-    padding-left: 175px;
-    padding-right: 175px;
-  }
-
-  #hero h1 {
     max-width: 960px;
     margin: 0 auto;
+    font-size: 40px;
+    font-weight: lighter;
   }
 
   .content-grid {
@@ -196,6 +193,8 @@
   }
 
   .content-section h2 {
+    padding-top: 25px;
+    padding-left: 20px;
     max-width: 960px;
     margin: 0 auto;
   }

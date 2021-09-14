@@ -3,7 +3,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: white;
+  background: #e5d2bf;
   z-index: 1000;
 }
 
@@ -35,11 +35,12 @@
 }
 
 .pills {
-  border: 1px solid black;
+  border: 1px solid #6aa788;
   box-sizing: border-box;
   border-radius: 100px;
   margin: 5px;
   padding: 2px;
+  background: #6aa788;
 }
 
 #technologies-list {
@@ -64,7 +65,7 @@
   margin-left: var(--space-small);
   margin-bottom: 3px;
   padding: var(--space-small);
-  border: 2px solid black;
+  border: 2px solid #a7c9a7;
 }
 
 .buttons {
@@ -72,7 +73,7 @@
 }
 
 .purple-button a {
-  color: white;
+  color: black;
 }
 
 .white-button a {
@@ -84,11 +85,11 @@
 }
 
 .purple-button {
-  background-color: black;
+  background-color: #a7c9a7;
 }
 
 .white-button {
-  background-color: white;
+  background-color: #a7c9a7;
 }
 
 .close-button button {
