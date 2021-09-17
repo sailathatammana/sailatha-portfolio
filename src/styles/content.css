@@ -18,7 +18,7 @@
 /* Hero */
 #hero {
   min-height: 100vh;
-  background: var(--color-mustard);
+  background: var(--color-beige);
   display: grid;
   align-items: center;
   width: 100%;
@@ -33,7 +33,7 @@
 
 /*About me*/
 #about {
-  background: var(--color-blue);
+  background: var(--color-cadetblue);
 }
 
 #about img {
@@ -84,7 +84,7 @@
 }
 
 #projects {
-  background: var(--color-mustard);
+  background: var(--color-beige);
   display: inline-block;
   width: 100%;
   color: black;
@@ -100,7 +100,7 @@
 
 /*Technologies*/
 #tech {
-  background: var(--color-blue);
+  background: var(--color-cadetblue);
 }
 
 .tech-section {
@@ -110,6 +110,7 @@
 .tech-section img {
   height: 44px;
   width: auto;
+  border-radius: 100px;
 }
 
 .tech-section h3 {
@@ -137,7 +138,7 @@
 
 #contact {
   min-height: 100%;
-  background: var(--color-mustard);
+  background: var(--color-beige);
   display: inline-block;
   align-items: flex-end;
   width: 100%;
