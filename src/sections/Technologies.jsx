@@ -1,19 +1,17 @@
-import TechnologiesCard from "../components/TechnologiesCard";
-import TechnologiesData from "../data/technologies.json";
+import Card from "../components/TechnologyCard";
+import data from "../data/technologies.json";
 
 export default function Technologies() {
-  const TechnologiesList = TechnologiesData.map((item) => (
-    <TechnologiesCard key={item.id} title={item.title} logo={item.logo} />
+  const TechnologiesList = data.map((item) => (
+    <Card key={item.id} title={item.title} logo={item.logo} />
   ));
+  
   return (
     <div className="content-section" id="tech">
       <h2>Technologies I use</h2>
       <div className="content-grid">
         <div>
-          <p>
-            Here are the techologies that I already know and also starting to
-            learn.
-          </p>
+          <p>Technologies that I'm comfortable with and also geting there.</p>
         </div>
         <div className="grid-technologies">{TechnologiesList}</div>
       </div>

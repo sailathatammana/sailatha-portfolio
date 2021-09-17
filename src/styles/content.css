@@ -1,5 +1,4 @@
 .content-section {
-  min-height: 100vh;
   display: inline-block;
   align-items: center;
   width: 100%;
@@ -19,10 +18,11 @@
 /* Hero */
 #hero {
   min-height: 100vh;
-  background: var(--color-light-grey);
+  background: var(--color-beige);
   display: grid;
   align-items: center;
   width: 100%;
+  color: black;
 }
 
 #hero h1 {
@@ -33,13 +33,13 @@
 
 /*About me*/
 #about {
-  background: #ffffff;
+  background: var(--color-cadetblue);
 }
 
 #about img {
   width: 300px;
   align-items: center;
-  border-radius: 100px;
+  border-radius: 100%;
   margin-left: 20px;
 }
 
@@ -84,9 +84,10 @@
 }
 
 #projects {
-  background: var(--color-light-grey);
+  background: var(--color-beige);
   display: inline-block;
   width: 100%;
+  color: black;
 }
 
 .projects-section {
@@ -99,8 +100,7 @@
 
 /*Technologies*/
 #tech {
-  min-height: 75vh;
-  background: #ffffff;
+  background: var(--color-cadetblue);
 }
 
 .tech-section {
@@ -110,6 +110,7 @@
 .tech-section img {
   height: 44px;
   width: auto;
+  border-radius: 100px;
 }
 
 .tech-section h3 {
@@ -122,29 +123,26 @@
   grid-template-columns: repeat(3, 1fr);
   text-align: center;
   grid-row-gap: var(--space-smaller);
+  grid-column-gap: var(--space-smaller);
   padding: var(--space-smaller);
 }
 
 /*Contact*/
 .contact-section {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  justify-content: center;
-  margin-bottom: var(--space-big);
+  margin: var(--space-medium);
 }
 
-.contact-section ul {
+.contact-section a {
   margin: var(--space-medium);
-  padding: 0;
-  list-style: none;
 }
 
 #contact {
   min-height: 100%;
-  background: var(--color-light-grey);
+  background: var(--color-beige);
   display: inline-block;
   align-items: flex-end;
   width: 100%;
+  color: black;
 }
 
 #contact img {
@@ -152,47 +150,44 @@
   margin-right: var(--space-small);
 }
 
-.contact-section li {
-  margin-bottom: var(--space-small);
-}
-
-#contact a {
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  color: black;
-}
-
 @media (min-width: 960px) {
   #hero h1 {
     text-align: center;
-    padding-left: 175px;
-    padding-right: 175px;
+    max-width: 960px;
+    margin: 0 auto;
+    font-size: 40px;
+    font-weight: lighter;
   }
 
   .content-grid {
+    max-width: 960px;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: flex-start;
-    padding-left: 150px;
-    padding-right: 50px;
+  }
+
+  #about .image-about {
+    padding-top: -100px;
+    padding-left: 75px;
+  }
+
+  #about img {
+    padding-bottom: 25px;
   }
 
   .projects-section {
     grid-template-columns: repeat(3, 1fr);
-    padding-right: 100px;
   }
 
-  .grid-technologies {
-    padding-right: 100px;
-  }
-
-  .contact-section {
-    padding-right: 100px;
+  #projects h3 {
+    font-weight: normal;
   }
 
   .content-section h2 {
-    padding-left: 150px;
-    padding-right: 50px;
+    padding-top: 25px;
+    padding-left: 20px;
+    max-width: 960px;
+    margin: 0 auto;
   }
 }

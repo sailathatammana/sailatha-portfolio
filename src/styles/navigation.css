@@ -1,6 +1,6 @@
 nav {
   width: 100vw;
-  height: 50px;
+  height: 75px;
   background: black;
   overflow: hidden;
   position: fixed;
@@ -14,7 +14,7 @@ nav {
   padding: 0;
   background-color: var(--color-dark-purple);
   width: 100vw;
-  height: 20px;
+  height: 50px;
   display: flex;
   justify-content: center;
 }
@@ -28,7 +28,6 @@ nav {
   width: 40px;
   height: auto;
   margin-top: 0;
-  background: var(--color-dark-grey);
 }
 
 .navigation a {
@@ -37,6 +36,6 @@ nav {
   margin-right: var(--space-small);
   margin-left: var(--space-small);
   text-decoration: none;
-  color: #fff;
+  color: white;
   font-weight: bold;
 }
