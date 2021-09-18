@@ -4,6 +4,9 @@
   --space-medium: 16px;
   --space-big: 24px;
   --space-bigger: 48px;
-  --color-beige: beige;
-  --color-cadetblue: cadetblue;
+  --color-light-grey: #eeeeee;
+  --color-light-cadetblue: #cbe1de;
+  --color-light-brown: #914712;
+  --color-dark-brown: #8f6243;
+  --color-light--blue: #96e9e2;
 }
