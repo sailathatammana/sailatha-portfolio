@@ -1,6 +1,6 @@
 footer {
   width: 100%;
-  background: black;
+  background: var(--color-dark-brown);
   overflow: hidden;
   bottom: 0;
   display: grid;
@@ -8,7 +8,6 @@ footer {
 }
 
 .footer p {
-  margin-bottom: var(--space-medium);
   margin-top: 0;
   color: white;
   font-size: 11px;
@@ -20,8 +19,7 @@ footer {
   align-items: center;
   text-align: center;
   padding: 0;
-  margin: var(--space-small);
-  margin-top: var(--space-medium);
+  margin: var(--space-smaller);
 }
 
 .footer li {

@@ -1,7 +1,7 @@
 nav {
   width: 100vw;
   height: 50px;
-  background: black;
+  background: var(--color-dark-brown);
   overflow: hidden;
   position: fixed;
   z-index: 1000;
@@ -12,7 +12,6 @@ nav {
   align-items: center;
   text-align: center;
   padding: 0;
-  background-color: var(--color-dark-purple);
   width: 100vw;
   height: 20px;
   display: flex;

@@ -8,7 +8,7 @@ export default function About() {
         <div>
           <p>Hi! A quick word about myself</p>
           <p>
-            I am from India. I am a frontend developer with interests in
+            I live in Lund, Sweden. I am a frontend developer with interests in
             full-stack development. Software development is an art; a science
             that I use to make technology more accessible to people.
           </p>
