@@ -48,7 +48,7 @@
     "title": "Package Tracking",
     "description": "A Package tracker who allows user to track his parcel ordered online.",
     "technologies": ["React", "Javascript", "HTML", "CSS", "Firebase-hosting"],
-    "isFinished": false,
+    "isFinished": true,
     "preview": "track-preview.jpg",
     "screenshot": "track-screenshot.jpg",
     "githubURL": "https://github.com/sailathatammana/",
