@@ -12,17 +12,6 @@
   },
   {
     "id": 2,
-    "title": "Yellow Package Tracking",
-    "description": "A website displays a list of parcel orders.",
-    "technologies": ["HTML", "CSS", "Firebase-hosting", "React", "Javascript"],
-    "isFinished": true,
-    "preview": "parcel-preview.jpg",
-    "screenshot": "parcel-screenshot.jpg",
-    "githubURL": "https://github.com/sailathatammana/Tracking",
-    "websiteURL": "https://yellow-trackingapp.web.app/"
-  },
-  {
-    "id": 3,
     "title": "EIKA Shopping List",
     "description": "A Shopping-list app where users can save items to buy at EIKA.",
     "technologies": ["React", "Javascript", "HTML", "CSS", "Firebase-hosting"],
@@ -33,7 +22,7 @@
     "websiteURL": "https://shopping-cart-70c46.web.app"
   },
   {
-    "id": 4,
+    "id": 3,
     "title": "Tastify",
     "description": "The 'Tastify' gives details about the available food items, booking availability.",
     "technologies": ["HTML", "CSS", "Firebase-hosting", "React", "Javascript"],
@@ -44,7 +33,7 @@
     "websiteURL": "https://tastify-restaurant.web.app/"
   },
   {
-    "id": 5,
+    "id": 4,
     "title": "Package Tracking",
     "description": "A Package tracker who allows user to track his parcel ordered online.",
     "technologies": ["React", "Javascript", "HTML", "CSS", "Firebase-hosting"],
@@ -55,18 +44,25 @@
     "websiteURL": "https://yellow-corp.web.app/"
   },
   {
-    "id": 6,
+    "id": 5,
     "title": "Todo list TDD",
     "description": "A todo list developed using Test Driven Development.",
-    "technologies": ["React", "Javascript", "HTML", "CSS", "Firebase-hosting"],
-    "isFinished": false,
+    "technologies": [
+      "React",
+      "Javascript",
+      "HTML",
+      "CSS",
+      "Firebase-hosting",
+      "Jest"
+    ],
+    "isFinished": true,
     "preview": "todo-preview.jpg",
     "screenshot": "todo-screenshot.jpg",
-    "githubURL": "https://github.com/sailathatammana/",
-    "websiteURL": "https://google.com"
+    "githubURL": "https://github.com/sailathatammana/todo-testing",
+    "websiteURL": "https://testing-shopping-todo.web.app/"
   },
   {
-    "id": 7,
+    "id": 6,
     "title": "E-commerce site",
     "description": "An intuitive E-commerce web app.",
     "technologies": ["React", "Javascript", "HTML", "CSS", "Firebase-hosting"],
@@ -77,7 +73,7 @@
     "websiteURL": "https://google.com"
   },
   {
-    "id": 8,
+    "id": 7,
     "title": "BBQ restaurant website",
     "description": "A website for a BBQ Restaurant.",
     "technologies": ["React", "Javascript", "HTML", "CSS", "Firebase-hosting"],
@@ -88,7 +84,7 @@
     "websiteURL": "https://google.com"
   },
   {
-    "id": 9,
+    "id": 8,
     "title": "Learning platform",
     "description": "A fun learning platform based on self learning and interests.",
     "technologies": ["React", "Javascript", "HTML", "CSS", "Firebase-hosting"],
@@ -99,7 +95,7 @@
     "websiteURL": "https://google.com"
   },
   {
-    "id": 10,
+    "id": 9,
     "title": "Netflix Clone",
     "description": "A video on demand app mimicking the Famous One.",
     "technologies": ["React", "Javascript", "HTML", "CSS", "Firebase-hosting"],
