@@ -63,17 +63,6 @@
   },
   {
     "id": 6,
-    "title": "E-commerce site",
-    "description": "An intuitive E-commerce web app.",
-    "technologies": ["React", "Javascript", "HTML", "CSS", "Firebase-hosting"],
-    "isFinished": false,
-    "preview": "ecommerce-preview.jpg",
-    "screenshot": "ecommerce-screenshot.jpg",
-    "githubURL": "https://github.com/sailathatammana/",
-    "websiteURL": "https://google.com"
-  },
-  {
-    "id": 7,
     "title": "BBQ restaurant website",
     "description": "A website for a BBQ Restaurant.",
     "technologies": ["React", "Javascript", "HTML", "CSS", "Firebase-hosting"],
@@ -84,7 +73,7 @@
     "websiteURL": "https://google.com"
   },
   {
-    "id": 8,
+    "id": 7,
     "title": "Learning platform",
     "description": "A fun learning platform based on self learning and interests.",
     "technologies": ["React", "Javascript", "HTML", "CSS", "Firebase-hosting"],
@@ -95,7 +84,7 @@
     "websiteURL": "https://google.com"
   },
   {
-    "id": 9,
+    "id": 8,
     "title": "Netflix Clone",
     "description": "A video on demand app mimicking the Famous One.",
     "technologies": ["React", "Javascript", "HTML", "CSS", "Firebase-hosting"],
