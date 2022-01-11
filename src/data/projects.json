@@ -63,14 +63,14 @@
   },
   {
     "id": 6,
-    "title": "BBQ restaurant website",
-    "description": "A website for a BBQ Restaurant.",
-    "technologies": ["React", "Javascript", "HTML", "CSS", "Firebase-hosting"],
-    "isFinished": false,
+    "title": "Brillo's BBQ",
+    "description": "The 'Brillo's BBQ' gives details about the available BBQ items, booking availability. ",
+    "technologies": ["React", "Javascript", "HTML", "CSS", "Firebase-database"],
+    "isFinished": true,
     "preview": "restaurant-preview.jpg",
     "screenshot": "restaurant-screenshot.jpg",
-    "githubURL": "https://github.com/sailathatammana/",
-    "websiteURL": "https://google.com"
+    "githubURL": "https://github.com/sailathatammana/brillos-bbq",
+    "websiteURL": "https://brillos-bbq.web.app/"
   },
   {
     "id": 7,
