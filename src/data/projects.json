@@ -77,11 +77,11 @@
     "title": "Learning platform",
     "description": "A fun learning platform based on self learning and interests.",
     "technologies": ["React", "Javascript", "HTML", "CSS", "Firebase-hosting"],
-    "isFinished": false,
+    "isFinished": true,
     "preview": "learning-preview.jpg",
     "screenshot": "learning-screenshot.jpg",
-    "githubURL": "https://github.com/sailathatammana/",
-    "websiteURL": "https://google.com"
+    "githubURL": "https://github.com/sailathatammana/lms",
+    "websiteURL": "https://techweb-lms.web.app/"
   },
   {
     "id": 8,
