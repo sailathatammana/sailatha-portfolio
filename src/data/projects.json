@@ -76,7 +76,7 @@
     "id": 7,
     "title": "Learning platform",
     "description": "A fun learning platform based on self learning and interests.",
-    "technologies": ["React", "Javascript", "HTML", "CSS", "Firebase-hosting"],
+    "technologies": ["React", "Javascript", "HTML", "CSS", "Firebase-database"],
     "isFinished": true,
     "preview": "learning-preview.jpg",
     "screenshot": "learning-screenshot.jpg",
@@ -87,11 +87,11 @@
     "id": 8,
     "title": "Netflix Clone",
     "description": "A video on demand app mimicking the Famous One.",
-    "technologies": ["React", "Javascript", "HTML", "CSS", "Firebase-hosting"],
-    "isFinished": false,
+    "technologies": ["React", "Javascript", "HTML", "CSS", "Firebase-database"],
+    "isFinished": true,
     "preview": "netflix-preview.jpg",
     "screenshot": "netflix-screenshot.jpg",
-    "githubURL": "https://github.com/sailathatammana/",
-    "websiteURL": "https://google.com"
+    "githubURL": "https://github.com/sailathatammana/netwatch",
+    "websiteURL": "https://netwatch-bca11.web.app/"
   }
 ]
